@@ -1,0 +1,55 @@
+section.formulario-contacto {
+  background-color: #EAF2FD;
+  padding: 16px;
+}
+
+section.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+}
+
+section.formulario-contacto form input {
+  border: transparent;
+  flex-grow: 1;
+  margin: 10px 0px;
+  height: 56px;
+  width: 80vw;
+  border-radius: 8px;
+}
+
+form input::placeholder {
+  color: #464646;
+  font-family: 'Raleway';
+}
+
+section.formulario-contacto form input:focus {
+  border-bottom: solid 2px #2A7AE4;
+}
+
+section.formulario-contacto form textarea {
+  border: transparent;
+  flex-grow: 1;
+  margin: 10px 0px;
+  height: 96px;
+  width: 80vw;
+}
+
+section.formulario-contacto form textarea:focus {
+  border-bottom: solid 2px #2A7AE4;
+}
+
+textarea{
+  border-radius: 8px;
+}
+textarea::placeholder {
+  color: #464646;
+  font-family: 'Raleway';
+}
+  /* Estilos para el botón de envío */
+  button[type="submit"] {
+    margin-top: 20px;
+    width: 25%;
+  }

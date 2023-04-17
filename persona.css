@@ -1,0 +1,63 @@
+.quienes{
+    background-color: aliceblue;
+}
+.persona{
+    display: flex;
+    flex-direction: column;
+}
+.persona__funcion{
+    color: #595959;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+    text-align: center;
+}
+.persona__imagen{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+.quienes__titulo{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.quienes__descripcion{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.persona__imagen--roberta{
+    background-image: url("img/roberta.jpg");
+}
+
+.persona__imagen--marcela{
+    background-image: url("img/marcela.jpg");
+}
+
+.persona__imagen--andreia{
+    background-image: url("img/andrea.jpg");
+}
+.persona__nombre{
+    color: #da2b1f;
+    font-family: pacifico, cursive;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+    
+}
+@media screen and(min-width:0){
+    .persona{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and(min-width:768px){
+    .persona{
+        margin-bottom: 0;
+    }
+}
+
